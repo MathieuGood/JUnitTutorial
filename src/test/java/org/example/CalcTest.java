@@ -13,4 +13,10 @@ class CalcTest {
         assertEquals(4, Calc.add(2,2));
     }
 
+    @Test
+    @DisplayName("Substract two numbers")
+    void sub() {
+        assertEquals(2, Calc.sub(6, 4));
+    }
+
 }
